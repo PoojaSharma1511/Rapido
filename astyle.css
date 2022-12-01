@@ -1,0 +1,18 @@
+.content{
+    animation: bike 1s linear 0s  running ;
+    transition:ease;
+}
+@keyframes bike{
+    0%{
+        width:46%;
+        height:90%;
+
+    }
+    100%{
+        width:60%;
+        height:90%;
+    }
+}
+.content img{
+    animation: bikeimg 1s linear 0s  running ;
+}
